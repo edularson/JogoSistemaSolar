@@ -1,0 +1,11 @@
+# JORNADA SOLAR - DEPENDÊNCIAS
+# pip install -r requirements.txt
+
+# Panda 3D
+panda3d>=1.10.13
+
+# opcional
+numpy>=1.20.0
+
+# build (gerar executável)
+pyinstaller>=6.0.0
