@@ -9,6 +9,12 @@
 
 ---
 
+## Demonstração
+
+![Lobby 3D com seleção dos planetas](screenshots/lobby.png)
+
+O projeto foi desenvolvido por **Eduardo Larson e João Samuel Luy**. Eduardo contribuiu com desenvolvimento e design de sistemas; João Samuel, com desenvolvimento e design de fases. Consulte os créditos para mais detalhes.
+
 ## Sobre o Projeto
 
 Este jogo foi desenvolvido como projeto acadêmico para a disciplina de **Computação Gráfica e Processamento Digital de Imagens** e tem como objetivo proporcionar uma experiência divertida e educativa sobre o sistema solar.
@@ -66,7 +72,7 @@ Pilote uma nave espacial através de 9 fases representando os planetas do sistem
 #### 1. Clone o repositório
 ```bash
 git clone https://github.com/edularson/JogoSistemaSolar.git
-cd jornadasolar
+cd JogoSistemaSolar
 ```
 
 #### 2. Crie um ambiente virtual (recomendado)
@@ -262,7 +268,7 @@ PLAYER_HORIZONTAL_SPEED = 0.15
 # Velocidade dos fragmentos por fase
 SPEED_MULTIPLIER_BY_LEVEL = {
     "terra": 1.0,      # velocidade padrão
-    "venus": 1.3,      # 1.3% mais rápido
+    "venus": 1.3,      # 1.3x a velocidade padrão
     "mercurio": 1.3,   # 1.3x mais rápido
     "sol": 1.4         # 1.4x mais rápido
 }
